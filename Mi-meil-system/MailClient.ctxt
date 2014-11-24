@@ -1,8 +1,14 @@
 #BlueJ class context
-comment0.params=
-comment0.target=MailClient()
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ MailClient\r\n
-comment1.params=y
-comment1.target=int\ sampleMethod(int)
-comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
-numComments=2
+comment0.params=server\ user
+comment0.target=MailClient(MailServer,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ que\ se\ agrga\ con\ un\ servidor\ y\ crea\ un\ usuario.\r\n
+comment1.params=
+comment1.target=MailItem\ getNexMailItem()
+comment1.text=\r\n\ Metodo\ que\ recupera\ del\ servidor\ el\ mensaje\ mandado\ a\ este\ usuario.\r\n
+comment2.params=
+comment2.target=void\ printNexMailItem()
+comment2.text=\r\n\ Metodo\ que\ recupera\ del\ servidor\ el\ mensaje\ mandado\ \r\n\ a\ este\ usuario\ y\ lo\ imprime\ por\ pantalla.\r\n
+comment3.params=to\ message
+comment3.target=void\ sendMailItem(java.lang.String,\ java.lang.String)
+comment3.text=\r\n\ Metodo\ que\ permite\ crear\ un\ mensaje\ y\ enviarsselo\ a\ \r\n\ un\ destinatario\ que\ nosotros\ indiquemos.\r\n
+numComments=4
